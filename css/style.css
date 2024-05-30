@@ -1,0 +1,260 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    list-style:none;
+    font-family:'poppins',sans-serif;
+}
+.main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    text-align:left;
+}
+.sidebar{
+    width:20%;
+    height:100dvh;
+    background-color: rgb(186, 71, 22);
+    position: fixed;
+    
+}
+#brand{
+    color: aliceblue;
+    font-size:30px;
+    padding:15px;
+    
+}
+.main a{
+    text-decoration: none;color: aliceblue;
+    font: size 18px;
+    display: list-item;
+    padding:15px;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black */
+}
+.main a:hover{
+    background-color: rgb(255, 136, 0);
+    margin:10px;
+}
+.content-container{
+    width:80%;
+    margin-left:22%;
+}
+.content-container h1{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.content-container h2{
+    color: rgb(238, 82, 15);
+}
+
+.content-container hr{
+    width: 60px;
+    height: 8px;
+    color: rgb(255, 89, 0);
+    background-color: rgb(255, 89, 0);
+    border:none;
+    border-radius:10px;
+}
+
+.content-container .img-container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    margin-top:20px;
+    margin-left: 0%;
+   
+    
+   
+}
+.content-container .img-container img{
+    width: 40%;
+    height: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:20px;
+    
+
+}
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:flex-start;
+    max-width: 1000px;
+    gap: 0px;
+}
+
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member h2 {
+    color:rgb(167, 166, 164);
+    margin: 15px 0 5px 0;
+    font-size: 1.5em;
+}
+
+.team-member h3 {
+    margin: 0;
+    color: #888;
+    font-weight: normal;
+}
+
+.team-member p {
+    padding: 0 15px 15px;
+    margin: 0;
+    color: #555;
+}
+.price-container {
+    display: flex;
+    justify-content:left;
+   
+    
+}
+.price-container h2,li,button{
+    border: #888;
+}
+
+.package {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 20px;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    
+   
+}
+
+.basic {
+    background-color: #f0f0f0;
+    margin-top:10px;
+    margin-right:5px;
+   
+}
+
+.pro {
+    background-color: #ffd1b3;
+    margin-top:10px;
+    margin-left:5px;
+}   
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.price .amount {
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.rooms {
+    margin: 10px 0;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.signup {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: #000000;
+}
+.contact-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin:0px;
+    
+}
+
+.contact-container h1 {
+    color: #ff5733;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.underline {
+    width: 50px;
+    height: 4px;
+    background-color: #ff5733;
+    margin: 0 auto 20px;
+}
+
+.contact-container p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width:100%;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-container textarea {
+    height: 100px;
+}
+
+.contact-container button {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-container button:hover {
+    background-color: #e04e2e;
+}
+
